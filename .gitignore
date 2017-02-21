@@ -27,4 +27,5 @@ sysinfo.txt
 
 # Builds
 *.apk
+!anima_v*.apk
 *.unitypackage
