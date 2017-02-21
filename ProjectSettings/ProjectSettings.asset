@@ -138,7 +138,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.ftwstudio.anima
   buildNumber: {}
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
