@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 229272461}
   - component: {fileID: 229272460}
   - component: {fileID: 229272459}
+  - component: {fileID: 229272462}
   m_Layer: 0
   m_Name: HoverProgressBar
   m_TagString: Untagged
@@ -202,6 +203,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &229272462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 229272457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a582ccec0a02854bb0f5758a321622b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressBar: {fileID: 687183906}
 --- !u!1 &406790069
 GameObject:
   m_ObjectHideFlags: 0
