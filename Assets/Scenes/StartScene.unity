@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 663101698}
   - component: {fileID: 663101697}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 1948721447}
   - component: {fileID: 1948721446}
   m_Layer: 5
-  m_Name: ResetButton
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1256,6 +1256,10 @@ Prefab:
     - target: {fileID: 1145600500207366, guid: 507b37120f7e483449360f3f75881b2a, type: 2}
       propertyPath: m_Name
       value: StartJourneyButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659023880580274, guid: 507b37120f7e483449360f3f75881b2a, type: 2}
+      propertyPath: m_Name
+      value: StartButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 507b37120f7e483449360f3f75881b2a, type: 2}
