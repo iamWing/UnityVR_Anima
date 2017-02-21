@@ -16,6 +16,7 @@ assets are provided by the artists from Questionable Quality.
 
 ## Progress Update
 
+- 21/02/2017 - v0.1.0-alpha release
 - 14/02/2017 - Prototyping with Cardboard
 
 ---
