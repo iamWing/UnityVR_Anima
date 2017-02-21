@@ -118,14 +118,13 @@ GameObject:
   - component: {fileID: 229272461}
   - component: {fileID: 229272460}
   - component: {fileID: 229272459}
-  - component: {fileID: 229272462}
   m_Layer: 0
   m_Name: HoverProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &229272458
 RectTransform:
   m_ObjectHideFlags: 0
@@ -203,18 +202,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &229272462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 229272457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a582ccec0a02854bb0f5758a321622b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  progressBar: {fileID: 687183906}
 --- !u!1 &406790069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1012,7 @@ MonoBehaviour:
   maxAlpha: 1
   panel: {fileID: 406790070}
   image: {fileID: 663101697}
+  m_player: {fileID: 0}
 --- !u!114 &1837885919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1116,6 +1104,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1875115234}
+  - component: {fileID: 1875115235}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1138,6 +1127,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1875115235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1875115233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fccda6b7929b3bb41b11a53c762dda5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_progressBar: {fileID: 229272457}
+  m_progress: {fileID: 687183906}
 --- !u!1001 &1919034868
 Prefab:
   m_ObjectHideFlags: 0
@@ -1506,6 +1508,11 @@ Prefab:
       propertyPath: m_Name
       value: StartButton
       objectReference: {fileID: 0}
+    - target: {fileID: 114236991774117992, guid: 507b37120f7e483449360f3f75881b2a,
+        type: 2}
+      propertyPath: m_player
+      value: 
+      objectReference: {fileID: 1875115233}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 507b37120f7e483449360f3f75881b2a, type: 2}
   m_IsPrefabParent: 0
