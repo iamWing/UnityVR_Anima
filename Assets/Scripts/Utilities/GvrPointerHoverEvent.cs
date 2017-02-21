@@ -12,6 +12,7 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
 
     private float m_hoverTime = 2.0f; // hover 2s to preform as click
     private bool m_onHover = false;
+    private bool m_reset = false;
 
     private IGvrPointerHoverTarget m_target;
 
@@ -24,6 +25,9 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
 	void Update () {
         if (m_onHover) {
             ActiveProgressBar();
+        } else {
+            if (m_reset)
+                ResetProgressBar();
         }
 	}
 
@@ -31,16 +35,30 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
         m_target = target;
         m_onHover = true;
 
-        Debug.Log("Msg receive");
+        Debug.Log("on hover");
+    }
+
+    void IGvrPointerHoverEvent.OnGvrPointerHoverExit() {
+        m_onHover = false;
+
+        Debug.Log("hover exit");
     }
 
     void ActiveProgressBar() {
         m_progressBar.SetActive(true);
+        m_reset = true;
 
         if (m_progress.fillAmount < 1) {
             m_progress.fillAmount += 1.0f / m_hoverTime * Time.deltaTime;
         } else {
             m_target.Execute();
         }
+    }
+
+    void ResetProgressBar() {
+        m_progressBar.SetActive(false);
+        m_reset = false;
+
+        m_progress.fillAmount = 0;
     }
 }

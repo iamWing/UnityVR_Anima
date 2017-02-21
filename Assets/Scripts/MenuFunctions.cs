@@ -59,6 +59,8 @@ public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
         CancelInvoke("IncrementScale");
         panel.localScale = new Vector3(minSize, minSize, minSize);
         print("Decrementing");
+
+        ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHoverExit());
     }
 
     void IGvrPointerHoverTarget.Execute() {
