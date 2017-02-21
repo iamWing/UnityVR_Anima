@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class OnPointerHover : MonoBehaviour {
 
     private float hoverTime = 3.0f;
-    private Image progressBar;
+    [SerializeField] private Image progressBar;
 
 	// Use this for initialization
 	void Start () {
