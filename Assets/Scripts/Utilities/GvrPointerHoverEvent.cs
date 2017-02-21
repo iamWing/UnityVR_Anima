@@ -13,6 +13,8 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
     private float m_hoverTime = 2.0f; // hover 2s to preform as click
     private bool m_onHover = false;
 
+    private IGvrPointerHoverTarget m_target;
+
 	// Use this for initialization
 	void Start () {
         m_progress.fillAmount = 0;
@@ -26,7 +28,9 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
 	}
 
     void IGvrPointerHoverEvent.OnGvrPointerHover(IGvrPointerHoverTarget target) {
+        m_target = target;
         m_onHover = true;
+
         Debug.Log("Msg receive");
     }
 
@@ -35,6 +39,8 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
 
         if (m_progress.fillAmount < 1) {
             m_progress.fillAmount += 1.0f / m_hoverTime * Time.deltaTime;
+        } else {
+            m_target.Execute();
         }
     }
 }

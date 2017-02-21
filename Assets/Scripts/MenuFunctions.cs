@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Utilities;
 
-public class MenuFunctions : MonoBehaviour {
+public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
 
     [SerializeField]
     private float speed , maxSize, minSize , incrementBy ,decrementBy;
@@ -50,7 +50,7 @@ public class MenuFunctions : MonoBehaviour {
         CancelInvoke("DecrementScale");
         print("Incrementing" + " " + incrementAlphaBy + " " + decrementAlphaBy);
 
-        ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHover(null));
+        ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHover(this));
 
     }
     public void OnHoverExitButton()
@@ -59,6 +59,10 @@ public class MenuFunctions : MonoBehaviour {
         CancelInvoke("IncrementScale");
         panel.localScale = new Vector3(minSize, minSize, minSize);
         print("Decrementing");
+    }
+
+    void IGvrPointerHoverTarget.Execute() {
+        OnStartJourneyButton();
     }
 
     private void IncrementScale()
