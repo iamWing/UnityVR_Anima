@@ -22,7 +22,8 @@ public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
     [SerializeField]
     Image image;
 
-    [SerializeField] private GameObject m_player;
+    [SerializeField]
+    private GameObject m_player; // TODO implement super class to handle target object mapping
 
     private float crtScale,crtAlpha = 0.0f;
 
@@ -51,6 +52,7 @@ public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
         print("Incrementing" + " " + incrementAlphaBy + " " + decrementAlphaBy);
 
         ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHover(this));
+        // TODO move to super class
 
     }
     public void OnHoverExitButton()
@@ -61,6 +63,7 @@ public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
         print("Decrementing");
 
         ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHoverExit());
+        // TODO move to super class
     }
 
     void IGvrPointerHoverTarget.Execute() {
