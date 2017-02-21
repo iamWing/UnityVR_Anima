@@ -25,7 +25,7 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
         }
 	}
 
-    void IGvrPointerHoverEvent.OnGvrPointerHover(GameObject target) {
+    void IGvrPointerHoverEvent.OnGvrPointerHover(IGvrPointerHoverTarget target) {
         m_onHover = true;
         Debug.Log("Msg receive");
     }

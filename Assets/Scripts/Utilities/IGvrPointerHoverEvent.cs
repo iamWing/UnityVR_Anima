@@ -7,6 +7,6 @@ namespace Utilities {
 
     internal interface IGvrPointerHoverEvent : IEventSystemHandler {
 
-        void OnGvrPointerHover(GameObject target);
+        void OnGvrPointerHover(IGvrPointerHoverTarget target);
     }
 }
