@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Utilities {
+namespace ProjectUtilities {
     public abstract class GazeHoverBehaviour : MonoBehaviour, IGvrPointerHoverTarget {
 
         [SerializeField]

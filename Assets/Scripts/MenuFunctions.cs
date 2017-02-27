@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using Utilities;
+using ProjectUtilities;
 
 public class MenuFunctions : GazeHoverBehaviour {
 
