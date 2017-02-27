@@ -59,7 +59,7 @@ public class MenuFunctions : GazeHoverBehaviour {
     }
 
      public override void Execute() {
-        OnStartJourneyButton();
+        Debug.Log("executed");
     }
 
     private void IncrementScale()

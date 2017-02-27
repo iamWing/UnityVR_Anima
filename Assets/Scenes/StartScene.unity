@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a357972def1b8469c84985993f0f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_player: {fileID: 0}
+  m_player: {fileID: 1875115233}
   speed: 0.05
   maxSize: 1.3
   minSize: 1
@@ -1243,7 +1243,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1837885918}
-          m_MethodName: OnHoverButton
+          m_MethodName: OnGazePointerEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1260,7 +1260,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1837885918}
-          m_MethodName: OnHoverExitButton
+          m_MethodName: OnGazePointerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
