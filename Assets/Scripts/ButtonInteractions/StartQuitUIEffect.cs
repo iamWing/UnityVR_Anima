@@ -35,8 +35,6 @@ namespace ButtonInteractions
 
 			InvokeRepeating ("IncrementScale", m_speed, m_speed);
 			CancelInvoke ("DecrementScale");
-
-			Execute();
 		}
 
 		protected override void OnHoverExit ()
