@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Utilities;
 
-public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
+public class MenuFunctions : GazeHoverBehaviour {
 
     [SerializeField]
     private float speed , maxSize, minSize , incrementBy ,decrementBy;
@@ -21,9 +21,6 @@ public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
     RectTransform panel;
     [SerializeField]
     Image image;
-
-    [SerializeField]
-    private GameObject m_player; // TODO implement super class to handle target object mapping
 
     private float crtScale,crtAlpha = 0.0f;
 
@@ -40,7 +37,7 @@ public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
     {
         Application.Quit();
     }
-    public void OnHoverButton()
+    protected override void OnHover()
     {
         crtScale = minSize;
         imgColor = image.color;
@@ -51,23 +48,18 @@ public class MenuFunctions : MonoBehaviour, IGvrPointerHoverTarget {
         CancelInvoke("DecrementScale");
         print("Incrementing" + " " + incrementAlphaBy + " " + decrementAlphaBy);
 
-        ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHover(this));
-        // TODO move to super class
-
     }
-    public void OnHoverExitButton()
+    protected override void OnHoverExit()
     {
         CancelInvoke("DecrementScale");
         CancelInvoke("IncrementScale");
         panel.localScale = new Vector3(minSize, minSize, minSize);
         print("Decrementing");
 
-        ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHoverExit());
-        // TODO move to super class
     }
 
-    void IGvrPointerHoverTarget.Execute() {
-        OnStartJourneyButton();
+     public override void Execute() {
+        Debug.Log("executed");
     }
 
     private void IncrementScale()
