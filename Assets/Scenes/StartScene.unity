@@ -1004,6 +1004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a357972def1b8469c84985993f0f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_player: {fileID: 0}
   speed: 0.05
   maxSize: 1.3
   minSize: 1
@@ -1012,7 +1013,6 @@ MonoBehaviour:
   maxAlpha: 1
   panel: {fileID: 406790070}
   image: {fileID: 663101697}
-  m_player: {fileID: 0}
 --- !u!114 &1837885919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1517,6 +1517,16 @@ Prefab:
         type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114014265851994186, guid: 507b37120f7e483449360f3f75881b2a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnGazePointerEnter
+      objectReference: {fileID: 0}
+    - target: {fileID: 114014265851994186, guid: 507b37120f7e483449360f3f75881b2a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnGazePointerExit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 507b37120f7e483449360f3f75881b2a, type: 2}
