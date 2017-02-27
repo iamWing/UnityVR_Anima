@@ -46,7 +46,6 @@ public class MenuFunctions : GazeHoverBehaviour {
 
         InvokeRepeating("IncrementScale", speed,speed);
         CancelInvoke("DecrementScale");
-        print("Incrementing" + " " + incrementAlphaBy + " " + decrementAlphaBy);
 
     }
     protected override void OnHoverExit()
@@ -54,12 +53,10 @@ public class MenuFunctions : GazeHoverBehaviour {
         CancelInvoke("DecrementScale");
         CancelInvoke("IncrementScale");
         panel.localScale = new Vector3(minSize, minSize, minSize);
-        print("Decrementing");
 
     }
 
      public override void Execute() {
-        Debug.Log("executed");
     }
 
     private void IncrementScale()
@@ -70,7 +67,6 @@ public class MenuFunctions : GazeHoverBehaviour {
         {
             crtScale += incrementBy;
             crtAlpha += incrementAlphaBy;
-            print(crtScale +  " " +crtAlpha);
         }
         else
         {
@@ -87,7 +83,6 @@ public class MenuFunctions : GazeHoverBehaviour {
         {
             crtScale -= decrementBy;
             crtAlpha -= decrementAlphaBy;
-            print(crtScale + " " + crtAlpha);
         }
         else
         {
