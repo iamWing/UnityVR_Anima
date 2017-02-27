@@ -22,9 +22,6 @@ public class MenuFunctions : GazeHoverBehaviour {
     [SerializeField]
     Image image;
 
-    //[SerializeField]
-    //private GameObject m_player; // TODO implement super class to handle target object mapping
-
     private float crtScale,crtAlpha = 0.0f;
 
 	// Use this for initialization
@@ -51,9 +48,6 @@ public class MenuFunctions : GazeHoverBehaviour {
         CancelInvoke("DecrementScale");
         print("Incrementing" + " " + incrementAlphaBy + " " + decrementAlphaBy);
 
-        // ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHover(this));
-        // TODO move to super class
-
     }
     protected override void OnHoverExit()
     {
@@ -62,8 +56,6 @@ public class MenuFunctions : GazeHoverBehaviour {
         panel.localScale = new Vector3(minSize, minSize, minSize);
         print("Decrementing");
 
-        // ExecuteEvents.Execute<IGvrPointerHoverEvent>(m_player, null, (x, y) => x.OnGvrPointerHoverExit());
-        // TODO move to super class
     }
 
      public override void Execute() {
