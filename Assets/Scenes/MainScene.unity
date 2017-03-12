@@ -1272,10 +1272,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1219434392663656, guid: ad52b7df5a78a174d9b261840951e37c, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad52b7df5a78a174d9b261840951e37c, type: 2}
   m_IsPrefabParent: 0
@@ -2015,11 +2011,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11b2523f870c21543a3651509b568a0a, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &438676505 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1679992519825128, guid: ad52b7df5a78a174d9b261840951e37c,
-    type: 2}
-  m_PrefabInternal: {fileID: 169963307}
 --- !u!1001 &449001353
 Prefab:
   m_ObjectHideFlags: 0
@@ -8584,27 +8575,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4782743906086910, guid: 47ff740291b7a2542a04ebe0b8f5050d,
     type: 2}
   m_PrefabInternal: {fileID: 1688513992}
---- !u!1 &1697691293 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1026997632544716, guid: ad52b7df5a78a174d9b261840951e37c,
-    type: 2}
-  m_PrefabInternal: {fileID: 169963307}
---- !u!114 &1697691294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1697691293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 545077bbda496d743ac6664fbee15f41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chestClosed: {fileID: 21300000, guid: 0f0aff83a702a6b4fa355c40e0cc4886, type: 3}
-  chestOpened: {fileID: 21300000, guid: 7af3364b33366d24b822a7390f47f6dd, type: 3}
-  particleSystem: {fileID: 1996646633}
-  particleSystemLifeTime: 5
-  treasureChestSprite: {fileID: 438676505}
 --- !u!1001 &1698649764
 Prefab:
   m_ObjectHideFlags: 0
@@ -9963,11 +9933,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4114787866383266, guid: 07b73cbe85cf95a41a66f13b0be22121,
     type: 2}
   m_PrefabInternal: {fileID: 1951550108}
---- !u!1 &1996646633 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1219434392663656, guid: ad52b7df5a78a174d9b261840951e37c,
-    type: 2}
-  m_PrefabInternal: {fileID: 169963307}
 --- !u!4 &1998375157 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4569977668957796, guid: 384794808ef1f4d409ef7b48eba0b836,
