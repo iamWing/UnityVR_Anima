@@ -12,7 +12,15 @@ public class TreasureChestScript : MonoBehaviour {
     [SerializeField]
     float particleSystemLifeTime = 5.0f;
 
+    [SerializeField]
+    GameObject treasureChestSprite;
     private SpriteRenderer spriteRenderer;
+
+    void Start()
+    {
+        spriteRenderer = treasureChestSprite.GetComponent<SpriteRenderer>();
+        InvokeRepeating("Execute", 5.0f,10f);
+    }
 
 
 	public void Execute()
@@ -20,6 +28,7 @@ public class TreasureChestScript : MonoBehaviour {
         particleSystem.SetActive(true);
         spriteRenderer.sprite = chestClosed;
         Invoke("DisableParticleSystem", particleSystemLifeTime);
+
 
     }
     public void DisableParticleSystem()

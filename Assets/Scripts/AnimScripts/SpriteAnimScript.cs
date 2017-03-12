@@ -16,6 +16,7 @@ public class SpriteAnimScript : MonoBehaviour {
 	void Start () {
         spriteRenderer = GetComponent<SpriteRenderer>();
         InvokeRepeating("UseNextSprite", refreshRate, refreshRate);
+
 	}
     public void UseNextSprite()
     {
