@@ -8,12 +8,17 @@ namespace ButtonInteractions {
         private Animator m_anim;
         private int m_talkStateHash = Animator.StringToHash("CharactersTalking");
 
+        private bool m_executed = false;
+
         void Start() {
             m_anim = GetComponentInParent<Animator>();
         }
 
         public override void Execute() {
-            m_anim.SetTrigger(m_talkStateHash);
+            if (!m_executed) {
+                m_anim.SetTrigger(m_talkStateHash);
+                m_executed = true;
+            }
         }
 
         protected override void OnHover() {
