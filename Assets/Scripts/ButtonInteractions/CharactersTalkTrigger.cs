@@ -6,7 +6,7 @@ namespace ButtonInteractions {
     public class CharactersTalkTrigger : GazeHoverBehaviour {
 
         private Animator m_anim;
-        private int m_talkStateHash = Animator.StringToHash("CharactersTalking");
+        private int m_talkStateHash = Animator.StringToHash("TalkTrigger");
 
         private bool m_executed = false;
 
