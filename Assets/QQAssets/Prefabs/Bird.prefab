@@ -19,7 +19,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4103974508882304}
-  - component: {fileID: 114799621765715074}
+  - component: {fileID: 95977452914374232}
+  - component: {fileID: 114076304437584644}
+  - component: {fileID: 114774118448191062}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -50,14 +52,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1596387589702872}
-  m_LocalRotation: {x: 0.26928666, y: 0.7659646, z: 0.21740514, w: -0.54177296}
+  m_LocalRotation: {x: 0.18015525, y: 0.7916825, z: 0.27778623, w: -0.5134372}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4162927080550300}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -38.67, y: 245.93, z: 13.1}
+  m_LocalEulerAnglesHint: {x: -38.67, y: 245.93, z: 0}
 --- !u!4 &4162927080550300
 Transform:
   m_ObjectHideFlags: 1
@@ -71,7 +73,24 @@ Transform:
   m_Father: {fileID: 4103974508882304}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114799621765715074
+--- !u!95 &95977452914374232
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596387589702872}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab222438c2971dd4e85968260bca4b57, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114076304437584644
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -103,6 +122,18 @@ MonoBehaviour:
   sourceMinDistance: 1
   hrtfEnabled: 1
   audioSource: {fileID: 0}
+--- !u!114 &114774118448191062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596387589702872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e007a41dcfbd7dd4e9a8ec2f81f2ee52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  degreesPerSecond: 5
 --- !u!114 &114833786730605602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,8 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animSprites:
-  - {fileID: 21300000, guid: c316e19c0031edd48bd6af6520df5bfc, type: 3}
-  - {fileID: 21300000, guid: bfe087f994bc14f4c8bc2c813a055590, type: 3}
+  - {fileID: 21300000, guid: 26dcfb89ff41e7b4a81c4a90f3df7eee, type: 3}
+  - {fileID: 21300000, guid: 0f4f19ea6de130f4380c8f461627f1c0, type: 3}
   refreshRate: 0.25
 --- !u!212 &212656748101336408
 SpriteRenderer:
@@ -149,7 +180,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -55
   m_Sprite: {fileID: 21300000, guid: c316e19c0031edd48bd6af6520df5bfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
