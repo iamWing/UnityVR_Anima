@@ -1425,6 +1425,36 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212722585313217452, guid: ad52b7df5a78a174d9b261840951e37c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 12031bc99cfcb6748ace5b3007e0d0bf,
+        type: 3}
+    - target: {fileID: 4164628966682590, guid: ad52b7df5a78a174d9b261840951e37c, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164628966682590, guid: ad52b7df5a78a174d9b261840951e37c, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636665789355240, guid: ad52b7df5a78a174d9b261840951e37c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114091568412942186, guid: ad52b7df5a78a174d9b261840951e37c,
+        type: 2}
+      propertyPath: chestClosed
+      value: 
+      objectReference: {fileID: 21300000, guid: 12031bc99cfcb6748ace5b3007e0d0bf,
+        type: 3}
+    - target: {fileID: 114091568412942186, guid: ad52b7df5a78a174d9b261840951e37c,
+        type: 2}
+      propertyPath: chestOpened
+      value: 
+      objectReference: {fileID: 21300000, guid: 1bcba415579a7664eba8c5ff894eb91d,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad52b7df5a78a174d9b261840951e37c, type: 2}
   m_IsPrefabParent: 0
