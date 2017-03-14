@@ -25,6 +25,7 @@ namespace ButtonInteractions {
         }
 
         protected override void OnHoverExit() {
+            m_executed = false; // TODO remove for actual implementation
         }
     }
 }
