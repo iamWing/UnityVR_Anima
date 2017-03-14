@@ -103,12 +103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd25f1308577456cbaa207901961126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllerMain: {fileID: 0}
-  controllerPointer: {fileID: 0}
-  reticlePointer: {fileID: 0}
-  messageCanvas: {fileID: 0}
-  messageText: {fileID: 0}
-  gvrEmulatedPlatformType: 0
 --- !u!114 &114084106132590478
 MonoBehaviour:
   m_ObjectHideFlags: 1
