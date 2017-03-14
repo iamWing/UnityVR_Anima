@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e444648b0b99bb46930e3a154105396
+guid: 39e194a20908f2c4abe2ac94f34427e4
 timeCreated: 1488824252
 licenseType: Free
 TextureImporter:
@@ -94,7 +94,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: QQAssetsMediumRes
+  spritePackingTag: QQAssetsHighRes
   userData: 
   assetBundleName: 
   assetBundleVariant: 
