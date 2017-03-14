@@ -29,3 +29,6 @@ sysinfo.txt
 *.apk
 !anima_v*.apk
 *.unitypackage
+
+# Merge
+*.orig
