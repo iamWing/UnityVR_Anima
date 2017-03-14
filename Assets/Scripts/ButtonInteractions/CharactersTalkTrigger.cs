@@ -11,7 +11,7 @@ namespace ButtonInteractions {
         private bool m_executed = false;
 
         void Start() {
-            m_anim = GetComponentInParent<Animator>();
+            m_anim = GetComponent<Animator>();
         }
 
         public override void Execute() {
@@ -22,11 +22,9 @@ namespace ButtonInteractions {
         }
 
         protected override void OnHover() {
-            throw new System.NotImplementedException();
         }
 
         protected override void OnHoverExit() {
-            throw new System.NotImplementedException();
         }
     }
 }
