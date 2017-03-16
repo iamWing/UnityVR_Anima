@@ -23,11 +23,11 @@ GameObject:
   - component: {fileID: 64929357368878766}
   - component: {fileID: 23801245206426242}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Cave_Texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1347921826044514
 GameObject:
@@ -42,7 +42,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4232208921128832
 Transform:
