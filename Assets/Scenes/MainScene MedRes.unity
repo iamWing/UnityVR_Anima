@@ -159,11 +159,11 @@ Prefab:
         type: 3}
     - target: {fileID: 4583893825798286, guid: 98f0f3ae0080ad940b840e8ca70f68c2, type: 2}
       propertyPath: m_LocalScale.x
-      value: 5.5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4583893825798286, guid: 98f0f3ae0080ad940b840e8ca70f68c2, type: 2}
       propertyPath: m_LocalScale.y
-      value: 5.5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1119792799049710, guid: 98f0f3ae0080ad940b840e8ca70f68c2, type: 2}
       propertyPath: m_StaticEditorFlags
