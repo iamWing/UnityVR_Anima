@@ -75,7 +75,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Android
-    maxTextureSize: 256
+    maxTextureSize: 128
     textureFormat: 47
     textureCompression: 1
     compressionQuality: 50
@@ -94,7 +94,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: ParticleSystem
+  spritePackingTag: VerySmallTextures
   userData: 
   assetBundleName: 
   assetBundleVariant: 
