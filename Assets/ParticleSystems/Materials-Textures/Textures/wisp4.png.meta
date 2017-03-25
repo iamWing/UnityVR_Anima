@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3ca106bc7db63384089c48704946cfe8
-timeCreated: 1489005426
+guid: be99ad553e4f5b147b50a54831e90b09
+timeCreated: 1487169444
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -75,7 +75,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Android
-    maxTextureSize: 256
+    maxTextureSize: 128
     textureFormat: 47
     textureCompression: 1
     compressionQuality: 50
@@ -94,7 +94,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: ParticleSystem
+  spritePackingTag: VerySmallTextures
   userData: 
   assetBundleName: 
   assetBundleVariant: 
