@@ -4070,9 +4070,9 @@ GameObject:
   m_Component:
   - component: {fileID: 860764172}
   - component: {fileID: 860764173}
+  - component: {fileID: 860764175}
   - component: {fileID: 860764174}
   - component: {fileID: 860764176}
-  - component: {fileID: 860764175}
   m_Layer: 0
   m_Name: Characters
   m_TagString: Untagged
@@ -4170,6 +4170,11 @@ MonoBehaviour:
   m_clips:
   - {fileID: 8300000, guid: 0a80067fc933be94a84ecf65c0c7e28b, type: 3}
   - {fileID: 8300000, guid: deb8a2c1358c9174588a8281533080a2, type: 3}
+  - {fileID: 8300000, guid: 0f0fc124aba93ab46ad23c38c4f1c0dd, type: 3}
+  - {fileID: 8300000, guid: c17a39046c545124ab844b472150ba59, type: 3}
+  - {fileID: 8300000, guid: 9224f99d6cf8df34f897a0ac5eee2e94, type: 3}
+  - {fileID: 8300000, guid: 516444aaad9f7a6428806203feb138e8, type: 3}
+  - {fileID: 8300000, guid: c65bcdb57482f874687c9da011b2dec4, type: 3}
 --- !u!1001 &940636345
 Prefab:
   m_ObjectHideFlags: 0
