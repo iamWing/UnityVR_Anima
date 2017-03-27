@@ -18,6 +18,7 @@ public class BaseAudioScript : MonoBehaviour {
 	}
 
 	void nextClip() {
+		Debug.Log (m_nextClip);
 		if (m_arrSize > 0 && m_nextClip < m_arrSize) {
 			m_audioSource.clip = m_clips [m_nextClip];
 			m_audioSource.Play();
