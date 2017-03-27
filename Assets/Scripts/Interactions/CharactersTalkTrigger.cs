@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using GvrUtilities;
+using UnityEngine.EventSystems;
 
 namespace Interactions {
     public class CharactersTalkTrigger : GazeHoverBehaviour {
+
+		[SerializeField] private GameObject m_chest;
 
         private Animator m_anim;
         private int m_talkStateHash = Animator.StringToHash("TalkTrigger");
@@ -26,5 +29,10 @@ namespace Interactions {
 
         protected override void OnHoverExit() {
         }
+
+		void ActiveChest() {
+			Debug.Log ("Active Chest");
+			ExecuteEvents.Execute<Chest>(m_chest, null, (x, y) => x.ActiveChest());
+		}
     }
 }
