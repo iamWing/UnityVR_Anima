@@ -4071,6 +4071,8 @@ GameObject:
   - component: {fileID: 860764172}
   - component: {fileID: 860764173}
   - component: {fileID: 860764174}
+  - component: {fileID: 860764176}
+  - component: {fileID: 860764175}
   m_Layer: 0
   m_Name: Characters
   m_TagString: Untagged
@@ -4122,6 +4124,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_player: {fileID: 1935034936}
+--- !u!114 &860764175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 860764171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  listenerDirectivityAlpha: 0
+  listenerDirectivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 1
+  sourceClip: {fileID: 0}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceDopplerLevel: 1
+  sourceSpread: 0
+  sourceVolume: 1
+  sourceRolloffMode: 0
+  sourceMaxDistance: 500
+  sourceMinDistance: 1
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
+--- !u!114 &860764176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 860764171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7ca9a53d820314eaf8e2ff04cfe66d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_clips:
+  - {fileID: 8300000, guid: 0a80067fc933be94a84ecf65c0c7e28b, type: 3}
+  - {fileID: 8300000, guid: deb8a2c1358c9174588a8281533080a2, type: 3}
 --- !u!1001 &940636345
 Prefab:
   m_ObjectHideFlags: 0
@@ -5775,43 +5823,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4569977668957796, guid: 384794808ef1f4d409ef7b48eba0b836,
     type: 2}
   m_PrefabInternal: {fileID: 1421239740}
---- !u!1 &1428113043 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1338493736110756, guid: b8f9e76b6b6be054a8793404d214c9f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1711255568}
---- !u!114 &1428113044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1428113043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
-  directivityAlpha: 0
-  directivitySharpness: 1
-  listenerDirectivityAlpha: 0
-  listenerDirectivitySharpness: 1
-  gainDb: 0
-  occlusionEnabled: 0
-  playOnAwake: 1
-  sourceClip: {fileID: 0}
-  sourceLoop: 0
-  sourceMute: 0
-  sourcePitch: 1
-  sourcePriority: 128
-  sourceDopplerLevel: 1
-  sourceSpread: 0
-  sourceVolume: 1
-  sourceRolloffMode: 0
-  sourceMaxDistance: 500
-  sourceMinDistance: 1
-  hrtfEnabled: 1
-  audioSource: {fileID: 0}
 --- !u!1 &1433933118 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1592701243404190, guid: 97c176bfab7b73545b80186bdcfc801c,
@@ -6569,6 +6580,10 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1338493736110756, guid: b8f9e76b6b6be054a8793404d214c9f3, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8f9e76b6b6be054a8793404d214c9f3, type: 2}
   m_IsPrefabParent: 0
@@ -6778,43 +6793,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4243816712860620, guid: 7f2bf2c602b32da42bb115ed3f111423,
     type: 2}
   m_PrefabInternal: {fileID: 389784399}
---- !u!1 &1817377395 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1572601492477874, guid: 1f5364ee537ad9b46bf97b0433350cb0,
-    type: 2}
-  m_PrefabInternal: {fileID: 767633111}
---- !u!114 &1817377396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1817377395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
-  directivityAlpha: 0
-  directivitySharpness: 1
-  listenerDirectivityAlpha: 0
-  listenerDirectivitySharpness: 1
-  gainDb: 0
-  occlusionEnabled: 0
-  playOnAwake: 1
-  sourceClip: {fileID: 0}
-  sourceLoop: 0
-  sourceMute: 0
-  sourcePitch: 1
-  sourcePriority: 128
-  sourceDopplerLevel: 1
-  sourceSpread: 0
-  sourceVolume: 1
-  sourceRolloffMode: 0
-  sourceMaxDistance: 500
-  sourceMinDistance: 1
-  hrtfEnabled: 1
-  audioSource: {fileID: 0}
 --- !u!1 &1853285494
 GameObject:
   m_ObjectHideFlags: 0
