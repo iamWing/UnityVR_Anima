@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using ProjectUtilities;
+using GvrUtilities;
 
 public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
 

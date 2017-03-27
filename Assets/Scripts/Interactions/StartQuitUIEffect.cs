@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using ProjectUtilities;
+using GvrUtilities;
 
-namespace ButtonInteractions
+namespace Interactions
 {
 	public abstract class StartQuitUIEffect : GazeHoverBehaviour
 	{

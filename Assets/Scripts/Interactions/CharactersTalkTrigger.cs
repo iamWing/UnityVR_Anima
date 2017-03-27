@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-using ProjectUtilities;
+using GvrUtilities;
 
-namespace ButtonInteractions {
+namespace Interactions {
     public class CharactersTalkTrigger : GazeHoverBehaviour {
 
         private Animator m_anim;
