@@ -52,7 +52,6 @@ public class GvrPointerHoverEvent : MonoBehaviour, IGvrPointerHoverEvent {
             m_progress.fillAmount += 1.0f / m_hoverTime * Time.deltaTime;
         } else {
             m_target.Execute();
-            print(m_target.ToString());
         }
     }
 
