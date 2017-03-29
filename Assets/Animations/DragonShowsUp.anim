@@ -400,7 +400,7 @@ AnimationClip:
   m_IsEmpty: 0
   m_Events:
   - time: 0
-    functionName: Play
+    functionName: nextClip
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

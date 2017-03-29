@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class BaseAudioScript : MonoBehaviour {
+public class BaseAudioScript : MonoBehaviour, IEventSystemHandler {
 
 	[SerializeField] private AudioClip[] m_clips;
 
@@ -17,7 +18,7 @@ public class BaseAudioScript : MonoBehaviour {
 		m_arrSize = m_clips.Length;
 	}
 
-	void nextClip() {
+	public void nextClip() {
 		Debug.Log (m_nextClip);
 		if (m_arrSize > 0 && m_nextClip < m_arrSize) {
 			m_audioSource.clip = m_clips [m_nextClip];

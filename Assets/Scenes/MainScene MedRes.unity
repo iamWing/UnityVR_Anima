@@ -1184,6 +1184,7 @@ MonoBehaviour:
   m_chestOpened: {fileID: 21300000, guid: 1bcba415579a7664eba8c5ff894eb91d, type: 3}
   m_particle: {fileID: 294127332}
   m_particleLifeTime: 5
+  m_dragon: {fileID: 344981161}
 --- !u!95 &222343368
 Animator:
   serializedVersion: 3
@@ -4800,11 +4801,11 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: 24
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: 123e92ea6f8101b47b02cbd5905de3d0, type: 3}
-  sourceLoop: 1
+  sourceLoop: 0
   sourceMute: 0
   sourcePitch: 1
   sourcePriority: 128
@@ -4812,9 +4813,9 @@ MonoBehaviour:
   sourceSpread: 0
   sourceVolume: 1
   sourceRolloffMode: 0
-  sourceMaxDistance: 500
+  sourceMaxDistance: 5
   sourceMinDistance: 1
-  hrtfEnabled: 1
+  hrtfEnabled: 0
   audioSource: {fileID: 0}
 --- !u!114 &344981166
 MonoBehaviour:
@@ -4827,6 +4828,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5fdf67344cd5f8418bbb0186ca9e7fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_dragon: {fileID: 1636673650}
+  m_characters: {fileID: 860764171}
 --- !u!1 &377974339
 GameObject:
   m_ObjectHideFlags: 0
@@ -5713,6 +5716,16 @@ Prefab:
         type: 2}
       propertyPath: refreshRate
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114076304437584644, guid: f1a7ca2aacf297a44919dccf91c5a87d,
+        type: 2}
+      propertyPath: gainDb
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114076304437584644, guid: f1a7ca2aacf297a44919dccf91c5a87d,
+        type: 2}
+      propertyPath: sourcePriority
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 95977452914374232, guid: f1a7ca2aacf297a44919dccf91c5a87d, type: 2}
