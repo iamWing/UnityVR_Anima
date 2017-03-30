@@ -1616,7 +1616,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 172646, guid: 6dfff844c95f342d1a8a9ab165303662, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22370464, guid: 6dfff844c95f342d1a8a9ab165303662, type: 2}
       propertyPath: m_SortingOrder
