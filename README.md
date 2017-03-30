@@ -4,18 +4,22 @@
 
 Anima is a mobile VR project aiming to explore the possibility to use 2D assets
 in a VR environment. We are cooperating with [Questionable
-Quality](http://www.questionablequality.com) on this project. All of the art
+Quality](http://www.questionablequality.com) on this project. Most of the art
 assets are provided by the artists from Questionable Quality.
 
 ### Target Platform
 
-- GearVR
+- ~~GearVR (not in the plan anymore)~~
 - Google Cardboard
 
 ---
 
 ## Progress Update
 
+- 30/03/2017 - v0.1.0-beta release
+  - Implemented a complete start to end flow
+  - Audio clips included
+  - Fixed UI covered by sprites problem
 - 14/03/2017 - v0.3.0-alpha release
   - Implemented basic environment in MainScene
   - Added characters animations mockup
