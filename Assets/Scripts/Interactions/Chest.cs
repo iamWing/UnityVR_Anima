@@ -29,6 +29,8 @@ namespace Interactions {
 				Invoke ("DisableParticle", 3.0f);
 				CancelInvoke ("EnableEffect");
 
+				m_chestImage.raycastTarget = false;
+
 				ExecuteEvents.Execute<DragonAnimTrigger> (m_dragon, null, (x, y) => x.ShowUp ());
 
 				m_executed = true;
