@@ -26,13 +26,16 @@ public class TreasureChestScript : MonoBehaviour {
 	public void Execute()
     {
         particleSystem.SetActive(true);
-        spriteRenderer.sprite = chestClosed;
         Invoke("DisableParticleSystem", particleSystemLifeTime);
-
-
+        Invoke("OpenChest", 0.5f);
+    }
+    public void OpenChest()
+    {
+        spriteRenderer.sprite = chestOpened;
     }
     public void DisableParticleSystem()
     {
         particleSystem.SetActive(false);
+        spriteRenderer.sprite = chestClosed;
     }
 }
