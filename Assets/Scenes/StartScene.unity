@@ -1214,6 +1214,7 @@ GameObject:
   - component: {fileID: 763306222}
   - component: {fileID: 763306223}
   - component: {fileID: 763306224}
+  - component: {fileID: 763306225}
   m_Layer: 0
   m_Name: ParticleRed
   m_TagString: Untagged
@@ -1273,12 +1274,23 @@ MonoBehaviour:
   sourcePriority: 128
   sourceDopplerLevel: 1
   sourceSpread: 0
-  sourceVolume: 0.2
+  sourceVolume: 0.8
   sourceRolloffMode: 0
   sourceMaxDistance: 500
   sourceMinDistance: 1
   hrtfEnabled: 1
   audioSource: {fileID: 0}
+--- !u!114 &763306225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 763306221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15db3f9e6710ca43b6a3e1d63aa534a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &765228587
 Prefab:
   m_ObjectHideFlags: 0
@@ -1752,6 +1764,7 @@ GameObject:
   - component: {fileID: 1324444140}
   - component: {fileID: 1324444141}
   - component: {fileID: 1324444142}
+  - component: {fileID: 1324444143}
   m_Layer: 0
   m_Name: ParticleBlue
   m_TagString: Untagged
@@ -1811,12 +1824,23 @@ MonoBehaviour:
   sourcePriority: 128
   sourceDopplerLevel: 1
   sourceSpread: 0
-  sourceVolume: 0.2
+  sourceVolume: 0.1
   sourceRolloffMode: 0
   sourceMaxDistance: 100
   sourceMinDistance: 1
   hrtfEnabled: 1
   audioSource: {fileID: 0}
+--- !u!114 &1324444143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1324444139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15db3f9e6710ca43b6a3e1d63aa534a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1366789866
 Prefab:
   m_ObjectHideFlags: 0
@@ -2000,6 +2024,7 @@ GameObject:
   - component: {fileID: 1652832569}
   - component: {fileID: 1652832570}
   - component: {fileID: 1652832571}
+  - component: {fileID: 1652832572}
   m_Layer: 0
   m_Name: ParticleOrange
   m_TagString: Untagged
@@ -2065,6 +2090,17 @@ MonoBehaviour:
   sourceMinDistance: 1
   hrtfEnabled: 1
   audioSource: {fileID: 0}
+--- !u!114 &1652832572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652832568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15db3f9e6710ca43b6a3e1d63aa534a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1661352805
 GameObject:
   m_ObjectHideFlags: 0
