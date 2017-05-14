@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 49c2f9562df0e18429eac736bf8af52d
   - enabled: 1
-    path: Assets/Scenes/MainScene MedRes.unity
-    guid: d6a58d10daa53cf4b8e9f7c41038b2d5
+    path: Assets/Scenes/MainScene BoneAnim.unity
+    guid: b8886cbe1c48beb43a7ce9bab910bda1
