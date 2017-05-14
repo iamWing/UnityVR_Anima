@@ -2260,6 +2260,7 @@ GameObject:
   - component: {fileID: 238129083}
   - component: {fileID: 238129084}
   - component: {fileID: 238129085}
+  - component: {fileID: 238129086}
   m_Layer: 0
   m_Name: BoneAnimation
   m_TagString: Untagged
@@ -2319,6 +2320,38 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9224f99d6cf8df34f897a0ac5eee2e94, type: 3}
   - {fileID: 8300000, guid: 516444aaad9f7a6428806203feb138e8, type: 3}
   - {fileID: 8300000, guid: c65bcdb57482f874687c9da011b2dec4, type: 3}
+--- !u!114 &238129086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 238129082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  listenerDirectivityAlpha: 0
+  listenerDirectivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 1
+  sourceClip: {fileID: 0}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceDopplerLevel: 1
+  sourceSpread: 0
+  sourceVolume: 1
+  sourceRolloffMode: 0
+  sourceMaxDistance: 500
+  sourceMinDistance: 1
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
 --- !u!1 &238756268
 GameObject:
   m_ObjectHideFlags: 0
@@ -7043,7 +7076,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 442343102}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.82, y: 8.8, z: 0}
+  m_LocalPosition: {x: -5.54, y: 8.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 965832737}
@@ -7067,7 +7100,7 @@ MonoBehaviour:
   m_Weight: 1
   m_RestoreDefaultPose: 1
   m_OrientChild: 1
-  flip: 0
+  flip: 1
   m_Solver:
     m_RootBone: {fileID: 0}
     m_RootBoneTransform: {fileID: 1962765456}
@@ -7075,17 +7108,17 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 1962765456}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.36587507, w: 0.930664}
+      solverRotation: {x: 0, y: 0, z: 0.4214965, w: 0.90683}
       defaultLocalRotation: {x: 0, y: 0, z: 0.22244911, w: 0.97494435}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 1249845225}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0, w: 1}
+      solverRotation: {x: 0, y: 0, z: -0.04475039, w: 0.9989982}
       defaultLocalRotation: {x: 0, y: 0, z: 0.11494285, w: 0.99337214}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: 0.71000004, y: 15.650033, z: -20.73}
-    flip: 0
+    targetPosition: {x: 0.99000025, y: 15.130033, z: -20.73}
+    flip: 1
 --- !u!1001 &449001353
 Prefab:
   m_ObjectHideFlags: 0
@@ -13612,14 +13645,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1249845224}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.04475039, w: 0.9989982}
   m_LocalPosition: {x: 3.0000007, y: 0.0000018924475, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1892623799}
   m_Father: {fileID: 1962765456}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.13}
 --- !u!114 &1249845226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19211,15 +19244,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1962765455}
-  m_LocalRotation: {x: 0, y: 0, z: 0.36587507, w: 0.930664}
-  m_LocalPosition: {x: 2.2972233, y: 1.5513551, z: 1.3853302}
+  m_LocalRotation: {x: 0, y: 0, z: 0.4214965, w: 0.90683}
+  m_LocalPosition: {x: 2.2972233, y: 0.9, z: 0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1554448642}
   - {fileID: 1249845225}
   m_Father: {fileID: 47058848}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.923}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 49.858}
 --- !u!114 &1962765457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19232,7 +19265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3.0000005
+  m_Length: 3.0000014
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1249845225}
   m_AttachedIK: {fileID: 442343104}
