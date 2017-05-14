@@ -2259,6 +2259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 238129083}
   - component: {fileID: 238129084}
+  - component: {fileID: 238129085}
   m_Layer: 0
   m_Name: BoneAnimation
   m_TagString: Untagged
@@ -2299,6 +2300,25 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &238129085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 238129082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7ca9a53d820314eaf8e2ff04cfe66d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_clips:
+  - {fileID: 8300000, guid: 0a80067fc933be94a84ecf65c0c7e28b, type: 3}
+  - {fileID: 8300000, guid: deb8a2c1358c9174588a8281533080a2, type: 3}
+  - {fileID: 8300000, guid: 0f0fc124aba93ab46ad23c38c4f1c0dd, type: 3}
+  - {fileID: 8300000, guid: c17a39046c545124ab844b472150ba59, type: 3}
+  - {fileID: 8300000, guid: 9224f99d6cf8df34f897a0ac5eee2e94, type: 3}
+  - {fileID: 8300000, guid: 516444aaad9f7a6428806203feb138e8, type: 3}
+  - {fileID: 8300000, guid: c65bcdb57482f874687c9da011b2dec4, type: 3}
 --- !u!1 &238756268
 GameObject:
   m_ObjectHideFlags: 0
@@ -8558,7 +8578,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 621861549}
-  m_LocalRotation: {x: 0, y: 0, z: 0.17654784, w: 0.9842921}
+  m_LocalRotation: {x: 0, y: 0, z: 0.17654783, w: 0.98429203}
   m_LocalPosition: {x: 3.0000007, y: -0.0000011920929, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8579,7 +8599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.5000004
+  m_Length: 1.5000007
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 539393519}
   m_AttachedIK: {fileID: 534578437}
@@ -13026,7 +13046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.5000025
+  m_Length: 1.5000006
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 745875672}
   m_AttachedIK: {fileID: 2125576888}
@@ -18580,7 +18600,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1859353349}
-  m_LocalRotation: {x: 0, y: 0, z: 0.98152244, w: -0.19134726}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9815224, w: -0.19134724}
   m_LocalPosition: {x: 8.088844, y: -4.1554065, z: -0.0024967194}
   m_LocalScale: {x: 1.0000012, y: 1.0000012, z: 1}
   m_Children:
@@ -18601,7 +18621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3.0000012
+  m_Length: 3
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1202665727}
   m_AttachedIK: {fileID: 2125576888}
