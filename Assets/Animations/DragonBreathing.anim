@@ -255,15 +255,15 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 2
-    functionName: NextCharacterScripts
+  - time: 1.9833333
+    functionName: TriggerAnimation
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 2
-    functionName: TriggerAnimation
+    functionName: NextCharacterScripts
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
