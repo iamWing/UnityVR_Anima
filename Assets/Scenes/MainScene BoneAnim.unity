@@ -990,7 +990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &97909360
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2273,7 +2273,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 238129082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1336581361}
@@ -2294,7 +2294,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: fc4a21f779c887742950fb8b39be4cbd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -6690,7 +6690,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.0674794, w: 0.9977207}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: 5.7400002, y: -2.6099672, z: -40.73}
+    targetPosition: {x: 5.7400002, y: -2.6099672, z: -20.73}
     flip: 0
 --- !u!1 &377974339
 GameObject:
@@ -7064,7 +7064,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.11494285, w: 0.99337214}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: 0.71000004, y: 15.650033, z: -40.73}
+    targetPosition: {x: 0.71000004, y: 15.650033, z: -20.73}
     flip: 0
 --- !u!1001 &449001353
 Prefab:
@@ -7873,7 +7873,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.06353726, w: 0.99797946}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -12.530001, y: 3.1644738, z: -40.73}
+    targetPosition: {x: -12.530001, y: 3.1644738, z: -20.73}
     iterations: 10
     damping: 0.8
 --- !u!4 &534578438
@@ -8558,7 +8558,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 621861549}
-  m_LocalRotation: {x: 0, y: 0, z: 0.17654783, w: 0.98429203}
+  m_LocalRotation: {x: 0, y: 0, z: 0.17654784, w: 0.9842921}
   m_LocalPosition: {x: 3.0000007, y: -0.0000011920929, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8579,7 +8579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.5000007
+  m_Length: 1.5000004
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 539393519}
   m_AttachedIK: {fileID: 534578437}
@@ -9077,7 +9077,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0, w: 1}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -9.530001, y: -2.8055263, z: -40.73}
+    targetPosition: {x: -9.530001, y: -2.8055263, z: -20.73}
     flip: 0
 --- !u!1001 &679915615
 Prefab:
@@ -13026,7 +13026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.5000006
+  m_Length: 1.5000025
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 745875672}
   m_AttachedIK: {fileID: 2125576888}
@@ -13772,7 +13772,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.031812247, w: 0.9994939}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: 8.34, y: -3.1299667, z: -40.73}
+    targetPosition: {x: 8.34, y: -3.1299667, z: -20.73}
     flip: 0
 --- !u!4 &1254059867
 Transform:
@@ -14219,7 +14219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1336581361
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16636,7 +16636,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.77362245, w: 0.6336469}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: 7.38, y: 5.9300327, z: -40.73}
+    targetPosition: {x: 7.38, y: 5.9300327, z: -20.73}
     iterations: 10
     damping: 0.8
 --- !u!1 &1585742992
@@ -17174,7 +17174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1642817577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17818,7 +17818,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0, w: 1}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -3.8900003, y: -2.8055263, z: -40.73}
+    targetPosition: {x: -3.8900003, y: -2.8055263, z: -20.73}
     flip: 0
 --- !u!1 &1718203010
 GameObject:
@@ -18580,7 +18580,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1859353349}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9815224, w: -0.19134724}
+  m_LocalRotation: {x: 0, y: 0, z: 0.98152244, w: -0.19134726}
   m_LocalPosition: {x: 8.088844, y: -4.1554065, z: -0.0024967194}
   m_LocalScale: {x: 1.0000012, y: 1.0000012, z: 1}
   m_Children:
@@ -18601,7 +18601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 3
+  m_Length: 3.0000012
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1202665727}
   m_AttachedIK: {fileID: 2125576888}
@@ -20290,22 +20290,22 @@ MonoBehaviour:
     m_SolverPoses:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 1859353350}
-      solverPosition: {x: -0.00000070482383, y: 0.0000008000561, z: -0.0000019073486}
+      solverPosition: {x: -0.00000070482383, y: 0.0000008000561, z: 0}
       solverRotation: {x: 0, y: 0, z: 0.9815225, w: -0.19134727}
       defaultLocalRotation: {x: 0, y: 0, z: 0.981534, w: -0.19128813}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 1202665727}
-      solverPosition: {x: 3.0000021, y: 0.00036123372, z: -0.0000019073486}
+      solverPosition: {x: 3.0000021, y: 0.00036123372, z: 0}
       solverRotation: {x: 0, y: 0, z: -0.12666355, w: 0.99194574}
       defaultLocalRotation: {x: 0, y: 0, z: -0.12801749, w: 0.99177194}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 745875672}
-      solverPosition: {x: 4.451918, y: -0.37639672, z: -0.0000019073486}
+      solverPosition: {x: 4.451918, y: -0.37639672, z: 0}
       solverRotation: {x: 0, y: 0, z: -0.3179447, w: 0.9481093}
       defaultLocalRotation: {x: 0, y: 0, z: -0.3221105, w: 0.9467021}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -2.1100001, y: 3.1644738, z: -40.73}
+    targetPosition: {x: -2.1100001, y: 3.1644738, z: -20.73}
     iterations: 10
     damping: 0.8
 --- !u!4 &2125576889
