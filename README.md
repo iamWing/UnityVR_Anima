@@ -33,6 +33,16 @@ graphical assets are provided by the artists from Questionable Quality.
 
 ---
 
+### License
+
+We haven't decided which license to apply in this project and most likely there 
+won't be any. Our client has agreed to release this as a open source project, so
+feel free to use the code. And it's alright if you use the art assets for test
+but just remember that you're not allowed to use the art assets contain in this
+project in any kind of release.
+
+---
+
 ## Attention
 
 - Use Git-Flow for branching
